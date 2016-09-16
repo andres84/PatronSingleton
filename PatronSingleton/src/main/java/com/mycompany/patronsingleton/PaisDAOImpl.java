@@ -27,6 +27,7 @@ public class PaisDAOImpl {
     public List getPaises() {
 
         if (Paises == null) {
+            
             Paises = new ArrayList();
 
             Pais p1 = new Pais("Colombia");
